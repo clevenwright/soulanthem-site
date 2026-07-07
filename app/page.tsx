@@ -1,65 +1,109 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Reveal from "@/components/Reveal";
+import Waitlist from "@/components/Waitlist";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main>
+      <Hero />
+
+      {/* The problem */}
+      <section className="mx-auto max-w-3xl px-6 py-32 text-center">
+        <Reveal>
+          <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
+            Affirmations feel fake because they are &mdash; when you don&apos;t believe them.
+          </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
+            Telling yourself &quot;I am confident&quot; when you feel the opposite doesn&apos;t build belief. It builds resistance. Your mind knows it isn&apos;t true, and it quietly pushes back.
           </p>
+        </Reveal>
+      </section>
+
+      {/* The insight */}
+      <section className="bg-[var(--bg-muted)] px-6 py-32">
+        <div className="mx-auto max-w-3xl text-center">
+          <Reveal>
+            <p className="text-sm uppercase tracking-[0.2em] text-[var(--accent)]">The insight</p>
+            <h2 className="mt-4 text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold tracking-tight">
+              Belief is built one believable step at a time.
+            </h2>
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
+              SoulAnthem uses believability-laddering, grounded in Bandura&apos;s research on self-efficacy: instead of leaping to a statement you can&apos;t accept, you start where you actually are and climb in steps you can genuinely believe &mdash; until the belief is real.
+            </p>
+          </Reveal>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* How it works */}
+      <section className="mx-auto max-w-5xl px-6 py-32">
+        <Reveal>
+          <h2 className="text-center text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold tracking-tight">How it works</h2>
+        </Reveal>
+        <div className="mt-16 grid gap-10 md:grid-cols-3">
+          {[
+            { n: "01", t: "Share your goal", d: "Tell SoulAnthem what you want to believe about yourself, in your own words." },
+            { n: "02", t: "Get your ladder", d: "AI crafts affirmations that meet you where you are and rise in steps you can actually accept." },
+            { n: "03", t: "Hear your anthem", d: "Your words become a personal audio journey, in a voice that adapts to you." },
+          ].map((s) => (
+            <Reveal key={s.n}>
+              <div className="text-center">
+                <p className="text-3xl font-semibold text-[var(--accent)]">{s.n}</p>
+                <h3 className="mt-3 text-xl font-semibold">{s.t}</h3>
+                <p className="mt-3 leading-relaxed text-black/60">{s.d}</p>
+              </div>
+            </Reveal>
+          ))}
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Differentiators */}
+      <section className="bg-[var(--bg-muted)] px-6 py-32">
+        <div className="mx-auto max-w-3xl text-center">
+          <Reveal>
+            <h2 className="text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold tracking-tight">
+              Not louder affirmations. Honest ones.
+            </h2>
+            <div className="mx-auto mt-10 max-w-2xl space-y-6 text-left">
+              <p className="text-lg leading-relaxed text-black/70"><span className="font-medium">The honest climb.</span> Start from what&apos;s true today, not a fantasy you&apos;ll reject.</p>
+              <p className="text-lg leading-relaxed text-black/70"><span className="font-medium">An adaptive voice.</span> A personal anthem that meets you where you are and grows with you.</p>
+              <p className="text-lg leading-relaxed text-black/70"><span className="font-medium">Believability, measured.</span> Rate each step, and your ladder adjusts to keep every rung real.</p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Mission */}
+      <section className="mx-auto max-w-2xl px-6 py-32 text-center">
+        <Reveal>
+          <p className="text-xl leading-relaxed text-black/70">
+            We built SoulAnthem because the confidence advice we were handed never worked &mdash; it asked us to pretend. Real belief isn&apos;t pretending harder. It&apos;s taking one honest step, then the next.
+          </p>
+        </Reveal>
+      </section>
+
+      {/* Waitlist close */}
+      <section id="waitlist" className="scroll-mt-24 bg-[var(--foreground)] px-6 py-32 text-center text-white">
+        <Reveal>
+          <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold tracking-tight">
+            Be first to build your anthem.
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-lg text-white/70">
+            Join the waitlist for early access when SoulAnthem launches.
+          </p>
+          <div className="mt-10">
+            <Waitlist />
+          </div>
+        </Reveal>
+      </section>
+
+      <footer className="px-6 py-12 text-center text-sm text-black/40">
+        <p>SoulAnthem, a product of Pyrigen Incorporated</p>
+        <p className="mt-2">
+          <a href="/privacy" className="hover:text-black/70">Privacy Policy</a>
+          <span className="mx-2">·</span>
+          <a href="mailto:hello@pyrigen.com" className="hover:text-black/70">hello@pyrigen.com</a>
+        </p>
+      </footer>
+    </main>
   );
 }
