@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
 import Aurora from "./Aurora";
+import Sprout from "./Sprout";
 import Waitlist from "./Waitlist";
 
 gsap.registerPlugin(SplitText, useGSAP);
@@ -37,6 +38,7 @@ export default function Hero() {
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-24 text-center text-[var(--foreground)]">
 
         <div className="brand mb-8 flex flex-col items-center">
+          <Sprout className="mb-6 h-24 w-auto sm:h-28" />
           <span className="text-[clamp(2.75rem,8vw,6.5rem)] font-semibold leading-none tracking-tight">
             Soul<span className="text-[var(--accent)]">Anthem</span>
           </span>
