@@ -7,6 +7,62 @@ export default function Home() {
     <main>
       <Hero />
 
+      <section className="mx-auto max-w-3xl px-6 py-32 text-center">
+        <Reveal>
+          <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
+            How does SoulAnthem work?
+          </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
+            Most affirmation apps hand you a statement and ask you to believe it. &quot;I am confident.&quot; &quot;I am worthy.&quot; If you already believed it, you would not need the app, and research on self-affirmation has found that repeating positive statements you do not accept can actually make people with low self-esteem feel worse, not better.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+            SoulAnthem starts somewhere else. It starts with something you already believe.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+            We call it believability laddering. You begin with a statement you genuinely accept, even a small one, and each step moves you one honest rung closer to the belief you are reaching for. Nothing you are asked to say outruns what you can actually accept. Belief is built, not declared.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+            Your voice carries it. An adaptive voice profile learns how you speak and what lands for you, and it grows with you as your belief grows.
+          </p>
+        </Reveal>
+      </section>
+
+      <section className="bg-[var(--bg-muted)] px-6 py-32">
+        <div className="mx-auto max-w-3xl text-center">
+          <Reveal>
+            <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
+              What is SoulAnthem built on?
+            </h2>
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
+              SoulAnthem is grounded in self-efficacy theory, introduced by psychologist Albert Bandura in 1977. Bandura&apos;s central finding was that a person&apos;s belief in their own capability is the strongest single predictor of whether they will act, persist, and recover from setbacks. Not talent. Not circumstance. Belief.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+              Bandura also identified how self-efficacy is actually built, and the most powerful source is mastery experience, meaning the accumulated evidence of having done something before. This is why SoulAnthem does not ask you to leap. It asks you to climb, one honest step at a time, and it keeps the evidence of every step you take.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+              The result is not a louder affirmation. It is a truer one.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-6 py-32 text-center">
+        <Reveal>
+          <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
+            Who is SoulAnthem for?
+          </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
+            SoulAnthem is for anyone who has tried to talk themselves into believing something and felt the words bounce off.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+            It is for the person who knows what they are capable of on paper but cannot quite feel it. It is for the one rebuilding after a setback. It is for anyone who wants confidence that holds up under pressure, because it was earned rather than asserted.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
+            SoulAnthem is designed for adults, 18 and over.
+          </p>
+        </Reveal>
+      </section>
+
       {/* The problem */}
       <section className="mx-auto max-w-3xl px-6 py-32 text-center">
         <Reveal>
@@ -79,6 +135,66 @@ export default function Home() {
             We built SoulAnthem because the confidence advice we were handed never worked &mdash; it asked us to pretend. Real belief isn&apos;t pretending harder. It&apos;s taking one honest step, then the next.
           </p>
         </Reveal>
+      </section>
+
+      <section className="bg-[var(--bg-muted)] px-6 py-32">
+        <div className="mx-auto max-w-3xl text-center">
+          <Reveal>
+            <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
+              Frequently asked questions
+            </h2>
+          </Reveal>
+          <div className="mt-16 space-y-12 text-left">
+            <Reveal>
+              <div>
+                <h3 className="text-xl font-semibold">What is believability laddering?</h3>
+                <p className="mt-4 leading-relaxed text-black/60">
+                  Believability laddering starts with a statement you already accept and moves one honest step at a time toward the belief you are working to hold. Instead of asking you to repeat something you do not believe, each rung stays within reach of what you can genuinely accept, so belief compounds rather than bounces off.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="text-xl font-semibold">How is SoulAnthem different from other affirmation apps?</h3>
+                <p className="mt-4 leading-relaxed text-black/60">
+                  Most affirmation apps ask you to repeat positive statements regardless of whether you believe them. Research has found this can backfire for people with low self-esteem. SoulAnthem instead builds belief incrementally, starting from what you already accept, and is grounded in Albert Bandura&apos;s self-efficacy framework.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="text-xl font-semibold">What is self-efficacy?</h3>
+                <p className="mt-4 leading-relaxed text-black/60">
+                  Self-efficacy is a person&apos;s belief in their own capability to accomplish something. Psychologist Albert Bandura introduced the concept in 1977 and found it to be the strongest single predictor of whether someone will take action, persist through difficulty, and recover from setbacks.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="text-xl font-semibold">Why is SoulAnthem voice-driven?</h3>
+                <p className="mt-4 leading-relaxed text-black/60">
+                  Hearing a belief in a voice, rather than only reading it, engages you more fully and makes the statement feel addressed to you rather than at you. SoulAnthem&apos;s adaptive voice profile learns what lands for each person and grows with them.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="text-xl font-semibold">Is SoulAnthem free?</h3>
+                <p className="mt-4 leading-relaxed text-black/60">
+                  SoulAnthem is launching as a free download.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="text-xl font-semibold">Who builds SoulAnthem?</h3>
+                <p className="mt-4 leading-relaxed text-black/60">
+                  SoulAnthem is built by Pyrigen Incorporated, a software studio based in Little Elm, Texas, founded by Cleven Wright.
+                </p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
       </section>
 
       {/* Waitlist close */}
