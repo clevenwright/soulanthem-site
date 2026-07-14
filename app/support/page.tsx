@@ -30,10 +30,10 @@ export default function Support() {
         <p className="mt-6 text-lg leading-relaxed text-black/60">
           Email:{" "}
           <a
-            href="mailto:support@soulanthem.ai"
+            href="mailto:support@pyrigen.com"
             className="text-[var(--accent)] hover:underline"
           >
-            support@soulanthem.ai
+            support@pyrigen.com
           </a>
         </p>
         <p className="mt-4 text-lg leading-relaxed text-black/60">
@@ -49,10 +49,10 @@ export default function Support() {
             <p className="mt-4 leading-relaxed text-black/60">
               Email{" "}
               <a
-                href="mailto:support@soulanthem.ai"
+                href="mailto:support@pyrigen.com"
                 className="text-[var(--accent)] hover:underline"
               >
-                support@soulanthem.ai
+                support@pyrigen.com
               </a>{" "}
               from the address associated with your account and ask us to delete it. We will remove your account and the data associated with it, and confirm when it is done.
             </p>
@@ -62,10 +62,10 @@ export default function Support() {
             <p className="mt-4 leading-relaxed text-black/60">
               Use the password reset option on the sign in screen, and we will send a reset link to your email address. If you do not receive it, check your spam folder, then contact{" "}
               <a
-                href="mailto:support@soulanthem.ai"
+                href="mailto:support@pyrigen.com"
                 className="text-[var(--accent)] hover:underline"
               >
-                support@soulanthem.ai
+                support@pyrigen.com
               </a>
               .
             </p>
@@ -81,10 +81,10 @@ export default function Support() {
             <p className="mt-4 leading-relaxed text-black/60">
               Email{" "}
               <a
-                href="mailto:support@soulanthem.ai"
+                href="mailto:support@pyrigen.com"
                 className="text-[var(--accent)] hover:underline"
               >
-                support@soulanthem.ai
+                support@pyrigen.com
               </a>{" "}
               with a short description of what happened, what device you are using, and what version of the app you have. Screenshots help.
             </p>
