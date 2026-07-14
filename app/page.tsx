@@ -215,6 +215,8 @@ export default function Home() {
       <footer className="px-6 py-12 text-center text-sm text-black/40">
         <p>SoulAnthem, a product of Pyrigen Incorporated</p>
         <p className="mt-2">
+          <a href="/support" className="hover:text-black/70">Support</a>
+          <span className="mx-2">·</span>
           <a href="/privacy" className="hover:text-black/70">Privacy Policy</a>
           <span className="mx-2">·</span>
           <a href="mailto:hello@pyrigen.com" className="hover:text-black/70">hello@pyrigen.com</a>
