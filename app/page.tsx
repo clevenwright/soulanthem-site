@@ -13,7 +13,7 @@ export default function Home() {
             How does SoulAnthem work?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
-            Most affirmation apps hand you a statement and ask you to believe it. &quot;I am confident.&quot; &quot;I am worthy.&quot; If you already believed it, you would not need the app, and research on self-affirmation has found that repeating positive statements you do not accept can actually make people with low self-esteem feel worse, not better.
+            Most affirmation apps hand you a statement and ask you to believe it. &quot;I am confident.&quot; &quot;I am worthy.&quot; If you already believed it, you would not need the app. Wood, Perunovic, and Lee (2009) found that repeating positive self-statements was associated with worse mood for participants with low self-esteem.
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
             SoulAnthem starts somewhere else. It starts with something you already believe.
@@ -34,13 +34,13 @@ export default function Home() {
               What is SoulAnthem built on?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
-              SoulAnthem is grounded in self-efficacy theory, introduced by psychologist Albert Bandura in 1977. Bandura&apos;s central finding was that a person&apos;s belief in their own capability is the strongest single predictor of whether they will act, persist, and recover from setbacks. Not talent. Not circumstance. Belief.
+              SoulAnthem is informed by self-efficacy theory, introduced by psychologist Albert Bandura in 1977. In Bandura&apos;s research, a person&apos;s belief in their own capability was closely associated with whether they acted, persisted, and recovered from setbacks. Not talent. Not circumstance. Belief.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
               Bandura also identified how self-efficacy is actually built, and the most powerful source is mastery experience, meaning the accumulated evidence of having done something before. This is why SoulAnthem does not ask you to leap. It asks you to climb, one honest step at a time, and it keeps the evidence of every step you take.
             </p>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
-              The result is not a louder affirmation. It is a truer one.
+              The aim is not a louder affirmation, but one you can actually accept.
             </p>
           </Reveal>
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-6 py-32 text-center">
         <Reveal>
           <h2 className="text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-tight tracking-tight">
-            Affirmations feel fake because they are &mdash; when you don&apos;t believe them.
+            When you don&apos;t believe them, affirmations feel fake because they are.
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
             Telling yourself &quot;I am confident&quot; when you feel the opposite doesn&apos;t build belief. It builds resistance. Your mind knows it isn&apos;t true, and it quietly pushes back.
@@ -84,7 +84,7 @@ export default function Home() {
               Belief is built one believable step at a time.
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-black/60">
-              SoulAnthem uses believability-laddering, grounded in Bandura&apos;s research on self-efficacy: instead of leaping to a statement you can&apos;t accept, you start where you actually are and climb in steps you can genuinely believe &mdash; until the belief is real.
+              SoulAnthem uses believability-laddering, informed by Bandura&apos;s research on self-efficacy: instead of leaping to a statement you can&apos;t accept, you start where you actually are and climb in steps you can genuinely believe, until the belief is real.
             </p>
           </Reveal>
         </div>
@@ -132,7 +132,7 @@ export default function Home() {
       <section className="mx-auto max-w-2xl px-6 py-32 text-center">
         <Reveal>
           <p className="text-xl leading-relaxed text-black/70">
-            We built SoulAnthem because the confidence advice we were handed never worked &mdash; it asked us to pretend. Real belief isn&apos;t pretending harder. It&apos;s taking one honest step, then the next.
+            We built SoulAnthem because the confidence advice we were handed never worked. It asked us to pretend. Real belief isn&apos;t pretending harder. It&apos;s taking one honest step, then the next.
           </p>
         </Reveal>
       </section>
@@ -149,7 +149,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">What is believability laddering?</h3>
                 <p className="mt-4 leading-relaxed text-black/60">
-                  Believability laddering starts with a statement you already accept and moves one honest step at a time toward the belief you are working to hold. Instead of asking you to repeat something you do not believe, each rung stays within reach of what you can genuinely accept, so belief compounds rather than bounces off.
+                  Believability laddering starts with a statement you already accept and moves one honest step at a time toward the belief you are working to hold. Instead of asking you to repeat something you do not believe, each rung stays within reach of what you can genuinely accept.
                 </p>
               </div>
             </Reveal>
@@ -157,7 +157,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">How is SoulAnthem different from other affirmation apps?</h3>
                 <p className="mt-4 leading-relaxed text-black/60">
-                  Most affirmation apps ask you to repeat positive statements regardless of whether you believe them. Research has found this can backfire for people with low self-esteem. SoulAnthem instead builds belief incrementally, starting from what you already accept, and is grounded in Albert Bandura&apos;s self-efficacy framework.
+                  Most affirmation apps ask you to repeat positive statements regardless of whether you believe them. Wood, Perunovic, and Lee (2009) found that repeating positive self-statements was associated with worse mood for participants with low self-esteem. SoulAnthem instead builds belief incrementally, starting from what you already accept, and is informed by Albert Bandura&apos;s self-efficacy framework.
                 </p>
               </div>
             </Reveal>
@@ -165,7 +165,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">What is self-efficacy?</h3>
                 <p className="mt-4 leading-relaxed text-black/60">
-                  Self-efficacy is a person&apos;s belief in their own capability to accomplish something. Psychologist Albert Bandura introduced the concept in 1977 and found it to be the strongest single predictor of whether someone will take action, persist through difficulty, and recover from setbacks.
+                  Self-efficacy is a person&apos;s belief in their own capability to accomplish something. Psychologist Albert Bandura introduced the concept in 1977, and his research associated it with whether someone takes action, persists through difficulty, and recovers from setbacks.
                 </p>
               </div>
             </Reveal>
@@ -173,7 +173,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Why is SoulAnthem voice-driven?</h3>
                 <p className="mt-4 leading-relaxed text-black/60">
-                  Hearing a belief in a voice, rather than only reading it, engages you more fully and makes the statement feel addressed to you rather than at you. SoulAnthem&apos;s adaptive voice profile learns what lands for each person and grows with them.
+                  Hearing a line spoken, rather than only reading it, makes it feel addressed to you rather than at you. SoulAnthem&apos;s adaptive voice profile learns what lands for each person and grows with them.
                 </p>
               </div>
             </Reveal>

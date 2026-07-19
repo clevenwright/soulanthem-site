@@ -46,11 +46,11 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-title max-w-3xl text-[clamp(1.5rem,3.5vw,2.75rem)] font-medium leading-[1.15] tracking-tight text-black/80 pb-[0.1em]">
-          Build unshakable self-belief, one honest step at a time.
+          Build self-belief, one honest step at a time.
         </h1>
 
         <p className="hero-sub mt-6 max-w-xl text-lg text-black/55 opacity-0">
-          Turn the affirmations you can&apos;t quite believe into ones you can &mdash; grounded in the science of self-efficacy.
+          Turn the affirmations you can&apos;t quite believe into ones you can, informed by psychological research on self-efficacy.
         </p>
 
         <div className="hero-cta mt-10 w-full opacity-0">
