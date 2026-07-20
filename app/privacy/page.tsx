@@ -78,30 +78,19 @@ export default function Privacy() {
         cross-app tracking.
       </p>
 
-      <h2 className="mt-12 text-xl font-semibold tracking-tight">Services we rely on</h2>
-      <p className="mt-4 text-black/60">SoulAnthem uses a small number of trusted services to operate.</p>
-      <ul className="mt-4 space-y-3 text-black/60">
-        <li>
-          <span className="font-medium text-black/80">Google.</span> For sign in and account information.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">Google Firebase.</span> For app infrastructure,
-          secure storage of your account and content, and analytics through Google Analytics for Firebase.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">Anthropic.</span> Processes the text you provide to
-          generate your affirmations.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">ElevenLabs.</span> Generates the anthem audio from
-          the affirmation text.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">Formspree.</span> If we collect a waitlist or
-          preregistration email through our website, we may use this form service to receive it.
-        </li>
-      </ul>
-      <p className="mt-4 text-black/60">Each of these services handles data under its own privacy terms.</p>
+      <h2 className="mt-12 text-xl font-semibold tracking-tight">Service Providers</h2>
+      <p className="mt-4 text-black/60">
+        We use service providers that help us operate, secure, and deliver SoulAnthem, including cloud
+        hosting and infrastructure providers, authentication and database providers, payment processors,
+        AI text-generation providers, safety-analysis providers, audio-generation providers, analytics or
+        diagnostics providers, and customer-support tools.
+      </p>
+      <p className="mt-4 text-black/60">
+        These providers may process information on our behalf only as needed to provide services to us,
+        support security and reliability, comply with legal obligations, or as otherwise described in this
+        Privacy Policy and our applicable agreements with them. We may update our service providers from
+        time to time as our infrastructure and operations evolve.
+      </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">How your information is stored and protected</h2>
       <p className="mt-4 text-black/60">
