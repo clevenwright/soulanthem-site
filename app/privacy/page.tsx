@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy — SoulAnthem",
+  title: "Privacy Policy | SoulAnthem",
   description: "How SoulAnthem and Pyrigen Incorporated handle your data.",
 };
 
@@ -15,7 +15,7 @@ export default function Privacy() {
   return (
     <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
       <h1 className="text-4xl font-semibold tracking-tight">Privacy Policy</h1>
-      <p className="mt-3 text-sm text-black/40">Last updated: July 14, 2026</p>
+      <p className="mt-3 text-sm text-black/40">Last updated: July 20, 2026</p>
 
       <p className="mt-8 text-lg leading-relaxed text-black/60">
         SoulAnthem is built by Pyrigen Incorporated, a Texas corporation. This policy explains what
@@ -25,7 +25,7 @@ export default function Privacy() {
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Who we are</h2>
       <p className="mt-4 text-black/60">
-        SoulAnthem is a product of Pyrigen Incorporated, based in Little Elm, Texas. If you have any
+        SoulAnthem is a product of Pyrigen Incorporated, based in Dallas, Texas. If you have any
         question about this policy or your data, email <SupportLink />.
       </p>
 
@@ -38,21 +38,20 @@ export default function Privacy() {
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">How you sign in</h2>
       <p className="mt-4 text-black/60">
-        SoulAnthem gives you two ways to sign in: with Google, shown in the app as &quot;Continue with
-        Google,&quot; or with an email address and password. If you sign in with Google, we receive basic
-        account information such as your name and email address so we can create and secure your account,
-        and we do not receive your Google password. If you sign up with email and password, we use your
-        email address to create your account, and your password is handled securely by our authentication
-        provider; we never see or store it in readable form.
+        SoulAnthem supports &quot;Continue with Google&quot; and email-and-password sign-in. If you use
+        Google, we receive basic account information from Google, such as your name and email address, so
+        we can create and secure your account. We do not receive your Google password. If you create an
+        account with email and password, our authentication provider handles those credentials to
+        authenticate and secure your account.
       </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">What we collect</h2>
       <p className="mt-4 text-black/60">We collect only what we need to make SoulAnthem work for you.</p>
       <ul className="mt-4 space-y-3 text-black/60">
         <li>
-          <span className="font-medium text-black/80">Account information.</span> Your name and email
-          address, received when you sign in with Google or provided when you sign up with email and
-          password, and a user identifier we use to keep your account and your content associated with you.
+          <span className="font-medium text-black/80">Account information.</span> Your name, when
+          available, your email address, and a user identifier received or created through your chosen
+          sign-in method so we can keep your account and content associated with you.
         </li>
         <li>
           <span className="font-medium text-black/80">Your content.</span> The words, affirmations,
@@ -80,30 +79,19 @@ export default function Privacy() {
         cross-app tracking.
       </p>
 
-      <h2 className="mt-12 text-xl font-semibold tracking-tight">Services we rely on</h2>
-      <p className="mt-4 text-black/60">SoulAnthem uses a small number of trusted services to operate.</p>
-      <ul className="mt-4 space-y-3 text-black/60">
-        <li>
-          <span className="font-medium text-black/80">Google.</span> For sign in and account information.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">Google Firebase.</span> For app infrastructure,
-          secure storage of your account and content, and analytics through Google Analytics for Firebase.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">Anthropic.</span> Processes the text you provide to
-          generate your affirmations.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">ElevenLabs.</span> Generates the anthem audio from
-          the affirmation text.
-        </li>
-        <li>
-          <span className="font-medium text-black/80">Formspree.</span> If we collect a waitlist or
-          preregistration email through our website, we may use this form service to receive it.
-        </li>
-      </ul>
-      <p className="mt-4 text-black/60">Each of these services handles data under its own privacy terms.</p>
+      <h2 className="mt-12 text-xl font-semibold tracking-tight">Service Providers</h2>
+      <p className="mt-4 text-black/60">
+        We use service providers that help us operate, secure, and deliver SoulAnthem, including cloud
+        hosting and infrastructure providers, authentication and database providers, payment processors,
+        AI text-generation providers, safety-analysis providers, audio-generation providers, analytics or
+        diagnostics providers, and customer-support tools.
+      </p>
+      <p className="mt-4 text-black/60">
+        These providers may process information on our behalf only as needed to provide services to us,
+        support security and reliability, comply with legal obligations, or as otherwise described in this
+        Privacy Policy and our applicable agreements with them. We may update our service providers from
+        time to time as our infrastructure and operations evolve.
+      </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">How your information is stored and protected</h2>
       <p className="mt-4 text-black/60">
@@ -121,15 +109,15 @@ export default function Privacy() {
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Deleting your account and your data</h2>
       <p className="mt-4 text-black/60">
-        You are in control. You can delete your account yourself from inside the app: open your Profile and
-        tap &quot;Delete my account,&quot; or go to Profile, then &quot;Privacy &amp; research,&quot; and tap
-        &quot;Delete my account.&quot; You will be asked to confirm.
+        You can delete your account from inside the app. Open Profile and tap &quot;Delete my
+        account.&quot; You can also open &quot;Privacy &amp; research&quot; from Profile and tap
+        &quot;Delete my account&quot; there.
       </p>
       <p className="mt-4 text-black/60">
-        Deleting your account removes your journeys, your affirmations, your anthems and their audio files,
-        your ratings, your completed rituals, and your account itself. When an in-app deletion request
-        completes, this information is removed from our active systems, and our service providers and backup
-        systems follow the timeframes required by applicable law. There is no email to send.
+        When the in-app deletion request completes, your journeys, affirmations, anthems and their audio
+        files, ratings, completed rituals, and account are removed from our active systems. Processor and
+        backup systems follow the timeframes required by applicable law. You do not need to send an email
+        when you can access the in-app deletion controls.
       </p>
       <p className="mt-4 text-black/60">
         If you cannot access your account for any reason, email <SupportLink /> and we will handle it for
@@ -139,9 +127,8 @@ export default function Privacy() {
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Your rights</h2>
       <p className="mt-4 text-black/60">
         Depending on where you live, you may have rights to access, correct, or delete your personal
-        information. Because SoulAnthem gives you direct account and data deletion inside the
-        app, you can exercise the most important of these rights yourself at any time. For anything else,
-        email <SupportLink />.
+        information. SoulAnthem provides direct in-app account and active-system data deletion. You can
+        use those controls at any time. For anything else, email <SupportLink />.
       </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Changes to this policy</h2>

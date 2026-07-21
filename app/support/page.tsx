@@ -16,7 +16,7 @@ const faqJsonLd = {
       name: "How do I delete my account and my data?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You can delete your account yourself from inside the app. Open your Profile and tap \"Delete my account,\" or go to Profile, then \"Privacy & research,\" and tap \"Delete my account,\" then confirm. This removes your journeys, your affirmations, your anthems and their audio files, your ratings, your completed rituals, and your account itself. When an in-app deletion request completes, this information is removed from our active systems, and our service providers and backup systems follow the timeframes required by applicable law. There is no email to send. If you cannot access your account for any reason, email support@pyrigen.com and we will handle it for you.",
+        text: "You can delete your account from inside the app. Open Profile and tap \"Delete my account.\" You can also open \"Privacy & research\" from Profile and tap \"Delete my account\" there. When the in-app deletion request completes, your journeys, affirmations, anthems and their audio files, ratings, completed rituals, and account are removed from our active systems. Processor and backup systems follow the timeframes required by applicable law. You do not need to send an email when you can access the in-app deletion controls. If you cannot access your account, email support@pyrigen.com and we will handle it for you.",
       },
     },
     {
@@ -24,7 +24,7 @@ const faqJsonLd = {
       name: "How do I sign in?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'SoulAnthem lets you sign in with "Continue with Google" or with an email address and password. If you use email and password, your password is handled securely by our authentication provider. If you are having trouble signing in, email support@pyrigen.com.',
+        text: 'SoulAnthem supports "Continue with Google" and email-and-password sign-in. If you are having trouble signing in or resetting your password, email support@pyrigen.com.',
       },
     },
     {
@@ -139,10 +139,10 @@ export default function Support() {
           <div>
             <h3 className="text-xl font-semibold">How do I delete my account and my data?</h3>
             <p className="mt-4 leading-relaxed text-black/60">
-              You can delete your account yourself from inside the app. Open your Profile and tap &quot;Delete my account,&quot; or go to Profile, then &quot;Privacy &amp; research,&quot; and tap &quot;Delete my account,&quot; then confirm.
+              You can delete your account from inside the app. Open Profile and tap &quot;Delete my account.&quot; You can also open &quot;Privacy &amp; research&quot; from Profile and tap &quot;Delete my account&quot; there.
             </p>
             <p className="mt-4 leading-relaxed text-black/60">
-              This removes your journeys, your affirmations, your anthems and their audio files, your ratings, your completed rituals, and your account itself. When an in-app deletion request completes, this information is removed from our active systems, and our service providers and backup systems follow the timeframes required by applicable law. There is no email to send.
+              When the in-app deletion request completes, your journeys, affirmations, anthems and their audio files, ratings, completed rituals, and account are removed from our active systems. Processor and backup systems follow the timeframes required by applicable law. You do not need to send an email when you can access the in-app deletion controls.
             </p>
             <p className="mt-4 leading-relaxed text-black/60">
               If you cannot access your account for any reason, email{" "}
@@ -158,7 +158,7 @@ export default function Support() {
           <div>
             <h3 className="text-xl font-semibold">How do I sign in?</h3>
             <p className="mt-4 leading-relaxed text-black/60">
-              SoulAnthem lets you sign in with &quot;Continue with Google&quot; or with an email address and password. If you use email and password, your password is handled securely by our authentication provider. If you are having trouble signing in, email{" "}
+              SoulAnthem supports &quot;Continue with Google&quot; and email-and-password sign-in. If you are having trouble signing in or resetting your password, email{" "}
               <a
                 href="mailto:support@pyrigen.com"
                 className="text-[var(--accent)] hover:underline"
