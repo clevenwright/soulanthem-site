@@ -80,7 +80,7 @@ export default function RootLayout({
         name: "Who builds SoulAnthem?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "SoulAnthem is built by Pyrigen Incorporated, a software studio based in Little Elm, Texas, founded by Cleven Wright, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives SoulAnthem.",
+          text: "SoulAnthem is built by Pyrigen Incorporated, a software studio based in Dallas, Texas, founded by Cleven Wright, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives SoulAnthem.",
         },
       },
     ],

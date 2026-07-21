@@ -25,7 +25,7 @@ export default function Privacy() {
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Who we are</h2>
       <p className="mt-4 text-black/60">
-        SoulAnthem is a product of Pyrigen Incorporated, based in Little Elm, Texas. If you have any
+        SoulAnthem is a product of Pyrigen Incorporated, based in Dallas, Texas. If you have any
         question about this policy or your data, email <SupportLink />.
       </p>
 
