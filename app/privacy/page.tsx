@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy — SoulAnthem",
+  title: "Privacy Policy | SoulAnthem",
   description: "How SoulAnthem and Pyrigen Incorporated handle your data.",
 };
 

@@ -8,11 +8,11 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.soulanthem.ai"),
-  title: "SoulAnthem — Build self-belief, one honest step at a time",
+  title: "SoulAnthem: Build self-belief, one honest step at a time",
   description:
     "SoulAnthem turns affirmations you can't quite believe into ones you can, informed by psychological research on self-efficacy. Join the waitlist.",
   openGraph: {
-    title: "SoulAnthem — Build self-belief, one honest step at a time",
+    title: "SoulAnthem: Build self-belief, one honest step at a time",
     description:
       "Build self-belief, one honest step at a time. Join the waitlist for early access.",
     url: "https://www.soulanthem.ai",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SoulAnthem — Build self-belief, one honest step at a time",
+    title: "SoulAnthem: Build self-belief, one honest step at a time",
     description: "Build self-belief, one honest step at a time.",
     images: ["/og.png"],
   },
@@ -80,7 +80,7 @@ export default function RootLayout({
         name: "Who builds SoulAnthem?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "SoulAnthem is built by Pyrigen Incorporated, a software studio based in Little Elm, Texas, founded by Cleven Wright.",
+          text: "SoulAnthem is built by Pyrigen Incorporated, a software studio based in Little Elm, Texas, founded by Cleven Wright, most recently responsible for AI business solutions at a national B2B organization, where he directed cross-functional teams to design and deploy enterprise AI platforms adopted across the organization. That same conviction drives SoulAnthem.",
         },
       },
     ],
