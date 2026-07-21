@@ -22,7 +22,7 @@ export default function Home() {
             We call it believability laddering. You begin with a statement you genuinely accept, even a small one, and each step moves you one honest rung closer to the belief you are reaching for. Nothing you are asked to say outruns what you can actually accept. Belief is built, not declared.
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-black/60">
-            Your voice carries it. An adaptive voice profile learns how you speak and what lands for you, and it grows with you as your belief grows.
+            Your voice carries it. Your anthem is tailored to what lands for you, and it grows with you as your belief grows.
           </p>
         </Reveal>
       </section>
@@ -173,7 +173,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Why is SoulAnthem voice-driven?</h3>
                 <p className="mt-4 leading-relaxed text-black/60">
-                  Hearing a line spoken, rather than only reading it, makes it feel addressed to you rather than at you. SoulAnthem&apos;s adaptive voice profile learns what lands for each person and grows with them.
+                  Hearing a line spoken, rather than only reading it, makes it feel addressed to you rather than at you. SoulAnthem&apos;s anthems are tailored to what lands for each person and grow with them.
                 </p>
               </div>
             </Reveal>

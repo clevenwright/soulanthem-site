@@ -38,10 +38,12 @@ export default function Privacy() {
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">How you sign in</h2>
       <p className="mt-4 text-black/60">
-        SoulAnthem uses Google sign in, shown in the app as &quot;Continue with Google.&quot; When you sign
-        in, we receive basic account information from Google, such as your name and email address, so we
-        can create and secure your account. We do not receive your Google password. There is no separate
-        SoulAnthem password.
+        SoulAnthem gives you two ways to sign in: with Google, shown in the app as &quot;Continue with
+        Google,&quot; or with an email address and password. If you sign in with Google, we receive basic
+        account information such as your name and email address so we can create and secure your account,
+        and we do not receive your Google password. If you sign up with email and password, we use your
+        email address to create your account, and your password is handled securely by our authentication
+        provider; we never see or store it in readable form.
       </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">What we collect</h2>
@@ -49,8 +51,8 @@ export default function Privacy() {
       <ul className="mt-4 space-y-3 text-black/60">
         <li>
           <span className="font-medium text-black/80">Account information.</span> Your name and email
-          address, received through Google sign in, and a user identifier we use to keep your account and
-          your content associated with you.
+          address, received when you sign in with Google or provided when you sign up with email and
+          password, and a user identifier we use to keep your account and your content associated with you.
         </li>
         <li>
           <span className="font-medium text-black/80">Your content.</span> The words, affirmations,
@@ -119,14 +121,15 @@ export default function Privacy() {
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Deleting your account and your data</h2>
       <p className="mt-4 text-black/60">
-        You are in control. You can delete your account yourself, from inside the app, at Settings, then
-        Profile, or Settings, then Privacy and Evidence, by tapping &quot;Delete my account&quot; and
-        confirming.
+        You are in control. You can delete your account yourself from inside the app: open your Profile and
+        tap &quot;Delete my account,&quot; or go to Profile, then &quot;Privacy &amp; research,&quot; and tap
+        &quot;Delete my account.&quot; You will be asked to confirm.
       </p>
       <p className="mt-4 text-black/60">
-        Deleting your account permanently removes your journeys, your affirmations, your anthems and their
-        audio files, your ratings, your completed rituals, and your account itself. It happens immediately,
-        with nothing left behind, and there is no email to send.
+        Deleting your account removes your journeys, your affirmations, your anthems and their audio files,
+        your ratings, your completed rituals, and your account itself. When an in-app deletion request
+        completes, this information is removed from our active systems, and our service providers and backup
+        systems follow the timeframes required by applicable law. There is no email to send.
       </p>
       <p className="mt-4 text-black/60">
         If you cannot access your account for any reason, email <SupportLink /> and we will handle it for
@@ -136,7 +139,7 @@ export default function Privacy() {
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Your rights</h2>
       <p className="mt-4 text-black/60">
         Depending on where you live, you may have rights to access, correct, or delete your personal
-        information. Because SoulAnthem gives you direct, immediate account and data deletion inside the
+        information. Because SoulAnthem gives you direct account and data deletion inside the
         app, you can exercise the most important of these rights yourself at any time. For anything else,
         email <SupportLink />.
       </p>
