@@ -16,7 +16,7 @@ const faqJsonLd = {
       name: "How do I delete my account and my data?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You can delete your account yourself, from inside the app. Go to Settings, then Profile (or Settings, then Privacy and Evidence) and tap \"Delete my account,\" then confirm. This permanently removes everything: your journeys, your affirmations, your anthems and their audio files, your ratings, your completed rituals, and your account itself. It happens immediately. There is nothing left behind, and no email to send. If you cannot access your account for any reason, email support@pyrigen.com and we will handle it for you.",
+        text: "You can delete your account from inside the app. Open Profile and tap \"Delete my account.\" You can also open \"Privacy & research\" from Profile and tap \"Delete my account\" there. When the in-app deletion request completes, your journeys, affirmations, anthems and their audio files, ratings, completed rituals, and account are removed from our active systems. Processor and backup systems follow the timeframes required by applicable law. You do not need to send an email when you can access the in-app deletion controls. If you cannot access your account, email support@pyrigen.com and we will handle it for you.",
       },
     },
     {
@@ -24,7 +24,7 @@ const faqJsonLd = {
       name: "How do I sign in?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'SoulAnthem uses "Continue with Google" to sign in. There is no separate SoulAnthem password to remember or reset. If you are having trouble signing in, email support@pyrigen.com.',
+        text: 'SoulAnthem supports "Continue with Google" and email-and-password sign-in. If you are having trouble signing in or resetting your password, email support@pyrigen.com.',
       },
     },
     {
@@ -139,10 +139,10 @@ export default function Support() {
           <div>
             <h3 className="text-xl font-semibold">How do I delete my account and my data?</h3>
             <p className="mt-4 leading-relaxed text-black/60">
-              You can delete your account yourself, from inside the app. Go to Settings, then Profile (or Settings, then Privacy and Evidence) and tap &quot;Delete my account,&quot; then confirm.
+              You can delete your account from inside the app. Open Profile and tap &quot;Delete my account.&quot; You can also open &quot;Privacy &amp; research&quot; from Profile and tap &quot;Delete my account&quot; there.
             </p>
             <p className="mt-4 leading-relaxed text-black/60">
-              This permanently removes everything: your journeys, your affirmations, your anthems and their audio files, your ratings, your completed rituals, and your account itself. It happens immediately. There is nothing left behind, and no email to send.
+              When the in-app deletion request completes, your journeys, affirmations, anthems and their audio files, ratings, completed rituals, and account are removed from our active systems. Processor and backup systems follow the timeframes required by applicable law. You do not need to send an email when you can access the in-app deletion controls.
             </p>
             <p className="mt-4 leading-relaxed text-black/60">
               If you cannot access your account for any reason, email{" "}
@@ -158,7 +158,7 @@ export default function Support() {
           <div>
             <h3 className="text-xl font-semibold">How do I sign in?</h3>
             <p className="mt-4 leading-relaxed text-black/60">
-              SoulAnthem uses &quot;Continue with Google&quot; to sign in. There is no separate SoulAnthem password to remember or reset. If you are having trouble signing in, email{" "}
+              SoulAnthem supports &quot;Continue with Google&quot; and email-and-password sign-in. If you are having trouble signing in or resetting your password, email{" "}
               <a
                 href="mailto:support@pyrigen.com"
                 className="text-[var(--accent)] hover:underline"
