@@ -93,6 +93,25 @@ export default function Privacy() {
         time to time as our infrastructure and operations evolve.
       </p>
 
+      <h2 className="mt-12 text-xl font-semibold tracking-tight">Analytics and Performance Monitoring</h2>
+      <p className="mt-4 text-black/60">
+        We use analytics and performance-monitoring tools, including Google Analytics for Firebase and
+        Firebase Performance Monitoring, to understand how SoulAnthem is used, measure product performance,
+        diagnose reliability issues, and improve the service.
+      </p>
+      <p className="mt-4 text-black/60">
+        We configure these tools to limit the information sent for analytics. We do not send emotional
+        free-text entries, mental-block text, affirmation text, anthem script text, or email addresses to
+        analytics. Analytics events are limited to product usage and performance information, such as app
+        flow events, feature usage, device and app performance information, and similar diagnostic data.
+        Where we use custom goal-related analytics, we collapse custom goal names into a generic
+        &quot;Custom&quot; label.
+      </p>
+      <p className="mt-4 text-black/60">
+        We do not use Google Analytics for Firebase for advertising targeting, and Google Signals is
+        disabled.
+      </p>
+
       <h2 className="mt-12 text-xl font-semibold tracking-tight">How your information is stored and protected</h2>
       <p className="mt-4 text-black/60">
         Your account, your content, and your generated audio are stored securely using Google Firebase
@@ -128,7 +147,13 @@ export default function Privacy() {
       <p className="mt-4 text-black/60">
         Depending on where you live, you may have rights to access, correct, or delete your personal
         information. SoulAnthem provides direct in-app account and active-system data deletion. You can
-        use those controls at any time. For anything else, email <SupportLink />.
+        use those controls at any time. For anything else, email <SupportLink />. You may exercise privacy
+        or Consumer Health Data rights by contacting us at{" "}
+        <a href="mailto:privacy@pyrigen.com" className="text-[var(--accent)] hover:underline">
+          privacy@pyrigen.com
+        </a>{" "}
+        or through the in-app privacy menu. If you contact <SupportLink /> with a privacy or data-rights
+        request, we will route your request to our privacy process.
       </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">Changes to this policy</h2>

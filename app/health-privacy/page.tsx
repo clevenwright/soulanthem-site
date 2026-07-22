@@ -5,7 +5,7 @@ import { healthPrivacyPublished } from "@/lib/healthPrivacyRelease";
 //
 // LEGAL COPY: render verbatim. This text is the counsel-approved policy and
 // must stay identical to the app repo source of truth
-// (lib/custom_code/copy/consumer_health_data_privacy_copy.dart, commit 16c6891).
+// (lib/custom_code/copy/consumer_health_data_privacy_copy.dart, commit 64f4997).
 // Same policy, two surfaces — do not let them drift.
 //
 // While the release gate is off, keep the page out of search indexes. The gate
@@ -116,6 +116,14 @@ export default function HealthPrivacy() {
         services to SoulAnthem, maintaining the security and integrity of its systems, satisfying legal
         obligations, or as otherwise permitted by applicable law and contractual commitments.
       </p>
+      <p className="mt-4 text-black/60">
+        We use limited analytics and performance-monitoring tools to understand product usage, reliability,
+        and performance. We do not send emotional free-text entries, mental-block text, affirmation text,
+        anthem script text, goal names, believability ratings, account email addresses, or Consumer Health
+        Data content to analytics. Analytics events are limited to pseudonymous product usage and
+        performance information, including standard app, device, session, page/route, and non-user-authored
+        route identifier information, and are not used for advertising targeting.
+      </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">
         5. Your Rights Regarding Consumer Health Data
@@ -127,8 +135,10 @@ export default function HealthPrivacy() {
       </p>
       <p className="mt-4 text-black/60">
         You may exercise these rights by contacting us at privacy@pyrigen.com or through the in-app privacy
-        menu. We will authenticate your request before acting on it. If we deny a request, you will be
-        provided with written justification and instructions on how to appeal our decision.
+        menu. If you contact support@pyrigen.com with a privacy or data-rights request, we will route your
+        request to our privacy process. We will authenticate your request before acting on it. If we deny a
+        request, you will be provided with written justification and instructions on how to appeal our
+        decision.
       </p>
       <p className="mt-4 text-black/60">
         Our response timeframes, deletion process, backup-system treatment, and service-provider retention
