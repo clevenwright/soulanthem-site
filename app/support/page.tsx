@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
 import SoulAnthemLogo from "@/components/SoulAnthemLogo";
+import {
+  healthPrivacyPublished,
+  healthPrivacyPath,
+  healthPrivacyLinkLabel,
+} from "@/lib/healthPrivacyRelease";
 
 export const metadata: Metadata = {
   title: "Support | SoulAnthem",
@@ -260,6 +265,14 @@ export default function Support() {
           <a href="/privacy" className="hover:text-black/70">
             Privacy Policy
           </a>
+          {healthPrivacyPublished && (
+            <>
+              <span className="mx-2">·</span>
+              <a href={healthPrivacyPath} className="hover:text-black/70">
+                {healthPrivacyLinkLabel}
+              </a>
+            </>
+          )}
           <span className="mx-2">·</span>
           <a href="mailto:support@pyrigen.com" className="hover:text-black/70">
             support@pyrigen.com

@@ -1,6 +1,11 @@
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
 import Waitlist from "@/components/Waitlist";
+import {
+  healthPrivacyPublished,
+  healthPrivacyPath,
+  healthPrivacyLinkLabel,
+} from "@/lib/healthPrivacyRelease";
 
 export default function Home() {
   return (
@@ -218,6 +223,14 @@ export default function Home() {
           <a href="/support" className="hover:text-black/70">Support</a>
           <span className="mx-2">·</span>
           <a href="/privacy" className="hover:text-black/70">Privacy Policy</a>
+          {healthPrivacyPublished && (
+            <>
+              <span className="mx-2">·</span>
+              <a href={healthPrivacyPath} className="hover:text-black/70">
+                {healthPrivacyLinkLabel}
+              </a>
+            </>
+          )}
           <span className="mx-2">·</span>
           <a href="mailto:hello@pyrigen.com" className="hover:text-black/70">hello@pyrigen.com</a>
         </p>
