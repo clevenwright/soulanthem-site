@@ -41,9 +41,9 @@ export default function Terms() {
       <p className="mt-3 text-sm text-black/40">Effective Date: [Insert Date, 2026]</p>
 
       <div className="mt-6 rounded-md border border-amber-500 bg-amber-50 p-4 text-sm text-amber-900">
-        <span className="font-semibold">DRAFT &mdash; not for publication.</span> Only the Subscriptions,
-        Cancellation, and Refunds section below is counsel-approved. All other sections are placeholders
-        awaiting counsel-drafted content.
+        <span className="font-semibold">DRAFT &mdash; not for publication.</span> Sections marked
+        PLACEHOLDER below are awaiting counsel-drafted content. Remove this notice and the placeholder
+        boxes only when every section carries counsel-approved text.
       </div>
 
       <p className="mt-8 text-lg leading-relaxed text-black/60">
@@ -99,7 +99,12 @@ export default function Terms() {
       <Placeholder note="Counsel to supply change-notice language and how the effective date is updated." />
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">11. Product-Specific Terms Control</h2>
-      <Placeholder note="Counsel to confirm the exact wording of the product-specific terms control clause (SoulAnthem product terms control for SoulAnthem practices). Insert once confirmed." />
+      <p className="mt-4 text-black/60">
+        These Terms govern your use of SoulAnthem. Pyrigen Incorporated may maintain separate corporate
+        terms or website terms for other Pyrigen services, websites, programs, or communications. If these
+        SoulAnthem Terms conflict with any Pyrigen corporate terms or other general terms, these SoulAnthem
+        Terms control for your use of SoulAnthem.
+      </p>
 
       <h2 className="mt-12 text-xl font-semibold tracking-tight">12. Contact</h2>
       <Placeholder note="Counsel to confirm contact section wording. Operational contact: support@pyrigen.com; Pyrigen Incorporated, a Texas corporation." />
