@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import { healthPrivacyEffectiveDate } from "@/lib/healthPrivacyRelease";
 
 // SoulAnthem Terms of Service - counsel-final text (verbatim, 28 sections).
 //
 // LEGAL COPY: render verbatim. Do not paraphrase, condense, or edit. Text nodes
 // use template literals so counsel's curly quotes/apostrophes render exactly.
 //
-// STATUS: staged. Keep robots noindex and the "[Insert publication date]"
-// placeholder until Cleven gives the publish go-ahead.
+// Effective date: same single source as the in-app CHD policy and the public
+// CHD page (HEALTH_PRIVACY_EFFECTIVE_DATE). Do not hard-code a separate date.
+//
+// STATUS: staged. Keep robots noindex until Cleven gives the publish go-ahead.
 export const metadata: Metadata = {
   title: "Terms of Service | SoulAnthem",
   description:
@@ -34,7 +37,9 @@ export default function Terms() {
   return (
     <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
       <h1 className="text-4xl font-semibold tracking-tight">SoulAnthem Terms of Service</h1>
-      <p className="mt-3 text-sm text-black/40">Effective Date: [Insert publication date]</p>
+      <p className="mt-3 text-sm text-black/40">
+        Effective Date: {healthPrivacyEffectiveDate}
+      </p>
 
       <p className="mt-8 text-lg leading-relaxed text-black/60">
         {`These SoulAnthem Terms of Service (“Terms”) govern your access to and use of SoulAnthem, a product operated by Pyrigen Incorporated, a Texas corporation (“Pyrigen,” “SoulAnthem,” “we,” “us,” or “our”).`}
