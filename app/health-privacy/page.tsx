@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
-import { healthPrivacyPublished } from "@/lib/healthPrivacyRelease";
+import {
+  healthPrivacyPublished,
+  healthPrivacyEffectiveDate,
+} from "@/lib/healthPrivacyRelease";
 
 // Consumer Health Data Privacy Policy — public surface.
 //
@@ -25,7 +28,7 @@ export default function HealthPrivacy() {
       <h1 className="text-4xl font-semibold tracking-tight">
         Consumer Health Data Privacy Policy
       </h1>
-      <p className="mt-3 text-sm text-black/40">Effective Date: [Insert Date, 2026]</p>
+      <p className="mt-3 text-sm text-black/40">Effective Date: {healthPrivacyEffectiveDate}</p>
 
       <p className="mt-8 text-lg leading-relaxed text-black/60">
         This Consumer Health Data Privacy Policy supplements our General Privacy Policy and applies
