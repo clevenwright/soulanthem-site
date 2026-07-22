@@ -5,8 +5,9 @@ import { healthPrivacyPublished } from "@/lib/healthPrivacyRelease";
 //
 // LEGAL COPY: render verbatim. This text is the counsel-approved policy and
 // must stay identical to the app repo source of truth
-// (lib/custom_code/copy/consumer_health_data_privacy_copy.dart, commit 64f4997).
-// Same policy, two surfaces — do not let them drift.
+// (lib/custom_code/copy/consumer_health_data_privacy_copy.dart, commit daa376a).
+// Same policy, two surfaces — do not let them drift. Guarded by
+// scripts/verify-health-privacy.mjs (npm run test:policy).
 //
 // While the release gate is off, keep the page out of search indexes. The gate
 // (HEALTH_PRIVACY_PUBLISHED) is the single switch for indexing; this only reads
