@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
 import Aurora from "./Aurora";
+import SiteHeader from "./SiteHeader";
 import Sprout from "./Sprout";
 import Waitlist from "./Waitlist";
 
@@ -35,6 +36,7 @@ export default function Hero() {
   return (
     <section id="top" ref={container} className="relative min-h-screen w-full overflow-hidden bg-[var(--background)]">
       <Aurora />
+      <SiteHeader transparent />
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-24 text-center text-[var(--foreground)]">
 
         <div className="brand mb-8 flex flex-col items-center">

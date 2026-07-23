@@ -3,6 +3,7 @@ import {
   healthPrivacyPublished,
   healthPrivacyEffectiveDate,
 } from "@/lib/healthPrivacyRelease";
+import SiteHeader from "@/components/SiteHeader";
 
 // Consumer Health Data Privacy Policy — public surface.
 //
@@ -24,7 +25,9 @@ export const metadata: Metadata = {
 
 export default function HealthPrivacy() {
   return (
-    <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
+    <>
+      <SiteHeader />
+      <main className="mx-auto max-w-3xl px-6 pt-20 pb-24">
       <h1 className="text-4xl font-semibold tracking-tight">
         Consumer Health Data Privacy Policy
       </h1>
@@ -204,5 +207,6 @@ export default function HealthPrivacy() {
         </a>
       </p>
     </main>
+    </>
   );
 }

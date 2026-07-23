@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { healthPrivacyEffectiveDate } from "@/lib/healthPrivacyRelease";
+import SiteHeader from "@/components/SiteHeader";
 
 // SoulAnthem Terms of Service - counsel-final text (verbatim, 28 sections).
 //
@@ -35,7 +36,9 @@ function PrivacyLink() {
 
 export default function Terms() {
   return (
-    <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
+    <>
+      <SiteHeader />
+      <main className="mx-auto max-w-3xl px-6 pt-20 pb-24">
       <h1 className="text-4xl font-semibold tracking-tight">SoulAnthem Terms of Service</h1>
       <p className="mt-3 text-sm text-black/40">
         Effective Date: {healthPrivacyEffectiveDate}
@@ -398,5 +401,6 @@ export default function Terms() {
         </a>
       </p>
     </main>
+    </>
   );
 }

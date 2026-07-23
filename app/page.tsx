@@ -6,6 +6,7 @@ import {
   healthPrivacyPath,
   healthPrivacyLinkLabel,
 } from "@/lib/healthPrivacyRelease";
+import { APP_URL } from "@/lib/appUrl";
 
 export default function Home() {
   return (
@@ -231,6 +232,10 @@ export default function Home() {
               </a>
             </>
           )}
+          <span className="mx-2">·</span>
+          <a href="/terms" className="hover:text-black/70">Terms</a>
+          <span className="mx-2">·</span>
+          <a href={APP_URL} className="hover:text-black/70">Sign in</a>
           <span className="mx-2">·</span>
           <a href="mailto:hello@pyrigen.com" className="hover:text-black/70">hello@pyrigen.com</a>
         </p>

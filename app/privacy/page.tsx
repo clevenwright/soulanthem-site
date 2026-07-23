@@ -1,3 +1,5 @@
+import SiteHeader from "@/components/SiteHeader";
+
 export const metadata = {
   title: "Privacy Policy | SoulAnthem",
   description: "How SoulAnthem and Pyrigen Incorporated handle your data.",
@@ -13,7 +15,9 @@ function SupportLink() {
 
 export default function Privacy() {
   return (
-    <main className="mx-auto max-w-3xl px-6 pt-32 pb-24">
+    <>
+      <SiteHeader />
+      <main className="mx-auto max-w-3xl px-6 pt-20 pb-24">
       <h1 className="text-4xl font-semibold tracking-tight">Privacy Policy</h1>
       <p className="mt-3 text-sm text-black/40">Last updated: July 20, 2026</p>
 
@@ -173,5 +177,6 @@ export default function Privacy() {
         </a>
       </p>
     </main>
+    </>
   );
 }
