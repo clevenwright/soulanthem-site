@@ -10,12 +10,11 @@ import SiteHeader from "@/components/SiteHeader";
 // Effective date: same single source as the in-app CHD policy and the public
 // CHD page (HEALTH_PRIVACY_EFFECTIVE_DATE). Do not hard-code a separate date.
 //
-// STATUS: staged. Keep robots noindex until Cleven gives the publish go-ahead.
+// STATUS: published. Indexable with the coordinated launch.
 export const metadata: Metadata = {
   title: "Terms of Service | SoulAnthem",
   description:
     "SoulAnthem Terms of Service from Pyrigen Incorporated, including subscription, cancellation, and refund terms.",
-  robots: { index: false, follow: false },
 };
 
 function SupportLink() {
