@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import SoulAnthemLogo from "@/components/SoulAnthemLogo";
+import {
+  healthPrivacyPublished,
+  healthPrivacyPath,
+  healthPrivacyLinkLabel,
+} from "@/lib/healthPrivacyRelease";
+import { APP_URL } from "@/lib/appUrl";
+import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "Support | SoulAnthem",
@@ -102,13 +108,7 @@ export default function Support() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      <header className="border-b border-black/5 bg-[var(--background)]/80 backdrop-blur-xl">
-        <nav className="mx-auto flex max-w-6xl items-center px-6 py-5">
-          <a href="/" aria-label="SoulAnthem home">
-            <SoulAnthemLogo />
-          </a>
-        </nav>
-      </header>
+      <SiteHeader />
 
       <main className="mx-auto max-w-3xl px-6 pt-20 pb-24">
         <h1 className="text-4xl font-semibold tracking-tight">Support</h1>
@@ -259,6 +259,22 @@ export default function Support() {
           <span className="mx-2">·</span>
           <a href="/privacy" className="hover:text-black/70">
             Privacy Policy
+          </a>
+          {healthPrivacyPublished && (
+            <>
+              <span className="mx-2">·</span>
+              <a href={healthPrivacyPath} className="hover:text-black/70">
+                {healthPrivacyLinkLabel}
+              </a>
+            </>
+          )}
+          <span className="mx-2">·</span>
+          <a href="/terms" className="hover:text-black/70">
+            Terms
+          </a>
+          <span className="mx-2">·</span>
+          <a href={APP_URL} className="hover:text-black/70">
+            Sign in
           </a>
           <span className="mx-2">·</span>
           <a href="mailto:support@pyrigen.com" className="hover:text-black/70">

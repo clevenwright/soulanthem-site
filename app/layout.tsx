@@ -64,7 +64,7 @@ export default function RootLayout({
         name: "Why is SoulAnthem voice-driven?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Hearing a line spoken, rather than only reading it, makes it feel addressed to you rather than at you. SoulAnthem's adaptive voice profile learns what lands for each person and grows with them.",
+          text: "Hearing a line spoken, rather than only reading it, makes it feel addressed to you rather than at you. SoulAnthem's anthems are tailored to what lands for each person and grow with them.",
         },
       },
       {
